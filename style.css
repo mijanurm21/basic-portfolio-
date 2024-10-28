@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "Jost", sans-serif;
+    
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    
+    
+    /* background-color: rgb(39, 36, 41); */
+    background-color: rgb(235, 237, 231);
+    display: flex;
+    
+}
+.side_wala{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(160, 155, 155);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;   
+
+    position: fixed;    
+}
+span{
+    color: rgb(211, 106, 68);
+}
+.kuchnhi{
+    padding-left: 6.5vh;
+    padding-top: 24vh;    
+}
+.kuchnhi h2{
+    margin-bottom: 35px;
+}
+.kuchnhi i{
+    padding: 1.5vh;
+}
+.side_wala h1{
+    padding-top: 14vh;
+    margin-left: 8vh;
+}
+.idhar_wala {
+    /* width: 80%;     */
+    color: whitesmoke;
+    display: flex;
+    padding-left: 25%;
+   
+}
+.idhar_wala h1{
+    padding-top: 35vh;
+}
+
+.idhar_wala h2{    
+    padding-top: 3vh;
+}
+.para{ 
+    padding-top: 3vh;
+    width: 90%;
+    font-size: 19px;
+    line-height: 25px; 
+    text-align: justify;  
+    /* border: red solid 4px;  */
+}
+.know{
+    background-color: rgb(211, 106, 68);
+    width: 20%;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 4vh; 
+    
+    
+}
+.know h2{
+    padding-bottom: 1.5vh; 
+    padding-top: 1.5vh; 
+}
+.photo{
+    
+    
+    margin-right: 5vw;
+    padding-top: 23vh;
+}
+img{
+ 
+    border-radius: 10px;
+    width: 18vw;
+    
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.font{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#about{
+    height: 100%;
+    width: 100%;
+    
+    /* color: red; */
+}
+#projects{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(235, 237, 231)
+    /* background-color: aqua; */
+    /* padding-left: 20%; */
+}
+#contact{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(235, 237, 231); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    height: 70%;
+    width: 60%;
+    background-color: rgb(177, 171, 171);
+    margin-left: 20%;
+    display: flex;      
+}
+
+.image{
+    width: 43%;
+    height: 100%;
+  
+    align-content: center;
+    padding-left: 8%;
+}
+.info{
+    padding-left: 3vh;
+    height: 100%;
+    width: 57%;
+    /* border: 4px solid black; */
+    display: flex;
+    flex-direction: column;   
+    
+}
+.info h1{
+    padding-top: 10%;    
+}
+.info input{
+    margin-top: 5vh;
+    font-size: 2.5vh;
+    border-radius: 10px;
+    margin-right: 10vh;
+    padding-left: 2vw;
+}
+
+.custom-textarea {
+    width: 80%;      
+    height: 28vh;     
+    margin-top: 10px;    
+    font-size: 20px; 
+  }
+  .custom-textarea::placeholder {
+  
+    padding-top: 1vh;
+    padding-left: 1vh;
+    font-size: 15px;
+  }
+.submit{
+    background-color: rgb(211, 106, 68);
+    width: 25%;
+    margin-left: 17vh;
+    margin-top: 3vh;
+    border-radius: 12px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;  
+      
+}
+
+.top {
+    height: 15%;
+    width: 100%;
+    margin-left: 20%;
+}
+.top h1{
+    padding-left: 2vw;
+    padding-top: 4vh;
+    color: coral;
+}
+
+.myself{
+    margin-left: 20%;
+    padding-left: 2vw;
+    padding-top: 4vh;
+    padding-right: 10vw;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.firstline{
+    height: 50%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 20%;
+}
+.box{
+    height: 90%;
+    width: 22%;
+    background-color: rgb(160, 155, 155);
+
+}
+.secondline{
+    height: 50%;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20%;
+}
+.box2{
+    height: 90%;
+    width: 22%;
+    background-color: rgb(160, 155, 155);
+   
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
+abbr{
+    text-decoration: none;
+}
+#projects h2{
+    text-align: center;
+    font-weight: 350;
+}
+#projects img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1.4vh;
+    
+}
+#projects p{
+    margin-top: 3vh;
+    margin-left: 1vh;
+}
